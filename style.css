@@ -1,0 +1,193 @@
+/* Media Query Syntax, this allows the rules of our css to apply to multiple screen sizes */
+
+/* ----------------------------------------------[Desktop View]--- */
+@media (max-width: 1580px) {
+    body {
+        background-color: black;
+        color: pink
+    }
+
+    .hidden-container {
+        display: flex;
+        /* border: solid red; */
+        margin: 1vw;
+        width: 40%;
+        justify-content: space-evenly;
+    }
+
+    .options-container {
+        /* border: solid navy; */
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        margin: 1vw;
+    }
+
+    .splash1 {
+        /* border: solid lime; */
+        width: 33%;
+    }
+
+    .splash2 {
+        /* border: solid purple; */
+        display: block;
+    }
+    
+    .main-title {
+        /* border: solid orange; */
+        display: block;
+    }
+}
+
+/* ----------------------------------------------[End of Desktop]-- */
+
+
+/* ----------------------------------------------[Mid View (Ipad/ Tablet)]--- */
+@media (max-width: 800px) {
+    body {
+        background-color: blue;
+        color: peru;
+    }
+
+    .hidden-container {
+        display: flex;
+        /* border: solid red; */
+        margin: 1vw;
+        width: 30%;
+    }
+
+    .options-container {
+        /* border: solid navy; */
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        margin: 1vw;
+    }
+
+    .splash1 {
+        /* border: solid lime; */
+        width: 60%;
+    }
+
+    .splash2 {
+        /* border: solid purple; */
+        display: none;
+    }
+    
+    .main-title {
+        /* border: solid orange; */
+        display: block;
+    }
+}
+
+/* ----------------------------------------------[End of Mid]-- */
+
+
+/* ----------------------------------------------[Mobile View]--- */
+@media (max-width: 500px) {
+    body {
+        background-color: lightgreen;
+        color: lemonchiffon
+    }
+
+    .hidden-container {
+        display: none;
+        width: auto;
+        justify-content: space-evenly;
+    }
+
+    .options-container {
+        /* border: solid navy; */
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        margin: 1vw;
+    }
+
+    .splash1 {
+        /* border: solid lime; */
+        width: 100%:
+    }
+
+    .splash2 {
+        /* border: solid purple; */
+        display: none;
+        width: 33%;
+    }
+    
+    .main-title {
+        /* border: solid orange; */
+        display: none;
+        width: 40%;
+    }
+}
+
+/* ----------------------------------------------[End of Mobile]-- */
+
+/* ------[General]------------------------------------------------ */
+
+.nav-container {
+    /* border: solid white; */
+    height: 8vh;
+    margin: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+}
+
+/* Top Container */
+
+.top-container {
+    /* border: solid lime; */
+    /* height: 55vh; */
+    margin: 1em;
+    display: flex;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.welcome-small {
+    text-align: right;
+}
+
+.welcome-btn {
+    margin: 3em;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: gray;
+    color: white;
+}
+
+.main-title {
+    padding: 1em;
+}
+/* Mid Container */
+.mid-container {
+    /* border: solid red; */
+    height: 55vh;
+    margin: 1em;
+}
+
+.logo-container {
+    /* border: solid lightblue; */
+    width: 10%;
+}
+
+.logo {
+    height: 30px;
+}
+
+.icon-container {
+    /* border: solid turquoise; */
+    width: 30%;
+}
+
+.smedia {
+    height: 30px;
+    width: 30px;
+}
+
+
